@@ -1,0 +1,37 @@
+html{
+  background: rgb(193, 213, 219);
+}
+
+html, body{
+    padding:0px;
+    margin:0px;
+    font-size: 12px;
+    font-family: Helvetica;
+}
+
+p{
+  font-size: 12px;
+}
+
+div h3{
+  color: blue;
+}
+
+
+.title_section{
+  text-align: center;
+}
+
+.main_section{
+  width: 900px;
+  margin: auto;
+  background: #F0F0F0;
+  padding: 10px;
+  font: 12px Helvetica;
+}
+
+.caract{
+  columns: 2;
+  column-gap: 300px;
+}
+
