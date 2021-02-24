@@ -5,29 +5,66 @@ html{
 html, body{
     padding:0px;
     margin:0px;
-    font-size: 12px;
+    font-size: 14px;
     font-family: Helvetica;
 }
 
 p{
-  font-size: 12px;
+  font-size: 14px;
 }
 
 div h3{
   color: blue;
 }
 
+h6{
+  margin: 0%;
+  padding: 0%;
+}
+
+table {     
+  font-size: 12px;       
+  width: 480px; 
+  text-align: left;    
+  border-collapse: collapse; 
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+th {     
+  font-size: 13px;     
+  font-weight: normal;     
+  padding: 8px;     
+  background: #b9c9fe;
+  border-top: 4px solid #aabcfe;    
+  border-bottom: 1px solid #fff; 
+  color: #039; 
+}
+
+td {    
+  padding: 8px;     
+  background: #e8edff;     
+  border-bottom: 1px solid #fff;
+  color: #669;    
+  border-top: 1px solid transparent; 
+}
+
+tr:hover td { 
+  background: #d0dafd; 
+  color: #339; 
+}
 
 .title_section{
   text-align: center;
 }
 
 .main_section{
-  width: 900px;
+  width: 1000px;
   margin: auto;
   background: #F0F0F0;
   padding: 10px;
   font: 12px Helvetica;
+  margin-bottom: 50px;
 }
 
 .caract{
